@@ -1,0 +1,24 @@
+/** @define select-lang */
+/// navbar의 언어선택 버튼 style<br />
+/// @author sj.baek
+.qs-select-lang {
+  // transform: translateY(($qs-avatar-profile-height - $qs-navbar-item-height)/2);
+  cursor: pointer;
+
+  .icon-lang {
+    width: $qs-navbar-item-width;
+    height: $qs-navbar-item-height;
+
+    i {
+      font-size: $qs-navbar-item-font-size;
+      color: $qs-primary;
+    }
+  }
+
+  // &__icon.svg-inline--fa.fa-w-16 {
+  //   width: $qs-navbar-item-width;
+  //   height: $qs-navbar-item-height;
+  //   cursor: pointer;
+  // }
+}
+

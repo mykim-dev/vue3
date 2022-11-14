@@ -1,0 +1,65 @@
+.qs-kanban {
+  padding-top: 10px;
+  .e-kanban {
+    .e-kanban-header {
+      .e-header-cells {
+        border-radius: 4px 4px 0px 0px;
+        padding: 5px 11px;
+        background-color: $qs-color-theme-40;
+        
+      }
+    }
+    .e-kanban-table {
+      .e-header-cells {
+        .e-header-text {
+          font-size: 16px;
+          color: $qs-color-gray-100;
+        }
+        .e-item-count {
+          font-size: 12px;
+          color: $qs-color-gray-40;
+          // 2020-11-05 kanban item count 오류로 인해 임시 숨김처리 - sjbaek
+          // display: none;
+        }
+      }
+    }
+
+    .e-kanban-content {
+      .e-content-row {
+        .e-content-cells {
+          .e-card-wrapper {
+            .e-card {
+              .e-card-header {
+                padding: 10px 14px 0;
+                .e-card-header-title {
+                  font-size: 16px;
+                  line-height: 22px;
+                  font-weight: 500;
+                }
+              }
+              .e-card-content {
+                font-size: 13px;
+                padding: 8px 14px;
+              }
+              .e-card-tags {
+                padding: 0 14px 11px;
+              }
+              .e-card-tag {
+                font-size: 11px;
+                padding: 0 6px;
+                background-color: rgba($qs-color-theme-20, 0.2);
+                color: $qs-color-theme-40;
+              }
+            }
+          }
+        }
+        &:not(.e-swimlane-row) {
+          .e-content-cells {
+            border-radius: 0px 0px 4px 4px;
+          }
+        }
+      }
+    }
+    
+  }
+}
