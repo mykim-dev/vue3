@@ -97,3 +97,15 @@ $size-height-25: 25rem;
 $size-height-30: 30rem;
 $size-height-40: 40rem;
 $size-height-50: 50rem;
+
+// theme-config.scss
+$themes: (
+  default: (
+    my-class-bg: $color-default-theme-70,
+    text-color: $color-default-theme-10,
+  ),
+  kakao: (
+    my-class-bg: $color-kakao-theme-70,
+    text-color: $color-kakao-theme-10,
+  ),
+);

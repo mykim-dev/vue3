@@ -12,7 +12,7 @@
         </select>
       </el-col>
       <el-col :span="6">
-        <el-button type="primary" @click="increment">Count is: {{ count }}</el-button>
+        <el-button class="qs-button" type="primary" @click="increment">Count is: {{ count }}</el-button>
       </el-col>
     </el-row>
   </div>
