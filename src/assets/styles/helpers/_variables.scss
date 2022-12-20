@@ -24,9 +24,16 @@ $qs-line-height-base: 1.5;
 $qs-border-radius: 4px;
 
 /* default theme color */
-$qs-color-danger: #f75456 !default;     /* 위험, 에러 */
-$qs-color-alarm: #ff6f61 !default;      /* 알림 */
-$qs-color-success: #6dd400 !default;    /* 긍정, 성공*/
+$qs-color-theme-10: var(--color-primary-10);
+$qs-color-theme-20: var(--color-primary-20);
+$qs-color-theme-30: var(--color-primary-30);
+$qs-color-theme-40: var(--color-primary-40);
+$qs-color-theme-50: var(--color-primary-50);
+$qs-color-theme-60: var(--color-primary-60);
+$qs-color-theme-70: var(--color-primary-70);
+$qs-color-theme-80: var(--color-primary-80);
+$qs-color-theme-90: var(--color-primary-90);
+$qs-color-theme-100: var(--color-primary-100);
 
 $qs-color-gray-10: var(--color-gray-10);
 $qs-color-gray-20: var(--color-gray-20);
@@ -39,29 +46,15 @@ $qs-color-gray-80: var(--color-gray-80);
 $qs-color-gray-90: var(--color-gray-90);
 $qs-color-gray-100: var(--color-gray-100);
 
-$qs-color-theme-10: var(--color-primary-10);
-$qs-color-theme-20: var(--color-primary-20);
-$qs-color-theme-30: var(--color-primary-30);
-$qs-color-theme-40: var(--color-primary-40);
-$qs-color-theme-50: var(--color-primary-50);
-$qs-color-theme-60: var(--color-primary-60);
-$qs-color-theme-70: var(--color-primary-70);
-$qs-color-theme-80: var(--color-primary-80);
-$qs-color-theme-90: var(--color-primary-90);
-$qs-color-theme-100: var(--color-primary-100);
+$qs-color-danger: #f75456 !default;     /* 위험, 에러 */
+$qs-color-alarm: #ff6f61 !default;      /* 알림 */
+$qs-color-success: #6dd400 !default;    /* 긍정, 성공*/
 
-/* system color */
-$qs-primary: var(--color-theme-primary);
+$qs-color-primary: var(--color-theme-primary);
 
 
 /* default background color */
 $qs-background-color: var(--color-layout-background);
-
-
-$disabled-font-color: $qs-color-gray-60 !default;
-$disabled-border-color: $qs-color-gray-30 !default;
-$disabled-background-color: $qs-color-gray-20 !default;
-
 
 /* default anchor-color */
 $qs-anchor-color: $qs-color-theme-70;
@@ -90,8 +83,8 @@ $qs-login-form-input-padding-y: 0;
 $qs-login-form-input-border-width: 1px;
 $qs-login-form-input-border-radius: $qs-border-radius;
 $qs-login-form-input-border-color: $qs-color-gray-30;
-$qs-login-form-input-border-color-hover: $qs-primary;
-$qs-login-form-input-border-color-focus: $qs-primary;
+$qs-login-form-input-border-color-hover: $qs-color-primary;
+$qs-login-form-input-border-color-focus: $qs-color-primary;
 $qs-login-form-input-background-color-readonly: $qs-color-gray-60;
 $qs-login-form-input-background-color-disabled: $qs-color-gray-30;
 $qs-login-form-button-margin-top: 20px;
@@ -101,8 +94,8 @@ $qs-login-form-button-line-height: 40px;
 $qs-login-form-button-font-size: 1.1rem;
 $qs-login-form-button-font-weight: $qs-font-weight-regular;
 $qs-login-form-button-color: $qs-color-gray-10;
-$qs-login-form-button-border-color: $qs-primary;
-$qs-login-form-button-background-color: $qs-primary;
+$qs-login-form-button-border-color: $qs-color-primary;
+$qs-login-form-button-background-color: $qs-color-primary;
 $qs-login-copyright-color: $qs-color-gray-60;
 $qs-login-copyright-font-size: 0.9rem;
 $qs-login-copyright-font-weight: $qs-font-weight-regular;
@@ -120,7 +113,7 @@ $qs-popup-close-button-font-size: 1.5rem;
 /* sidebar default setting */
 $qs-sidebar-width: 250px;
 $qs-sidebar-width-collapse: 65px;
-$qs-sidebar-font-color: $qs-primary;
+$qs-sidebar-font-color: $qs-color-primary;
 $qs-sidebar-font-color-active: $qs-color-theme-70;
 $qs-sidebar-border-color: $qs-color-gray-40;
 $qs-sidebar-background-color: $qs-color-theme-10;
@@ -128,7 +121,7 @@ $qs-sidebar-background-color-hover: $qs-color-theme-10;
 $qs-sidebar-background-color-active: $qs-color-theme-10;
 $qs-sidebar-item-margin: 0px;
 $qs-sidebar-item-main-height: 44px;
-$qs-sidebar-item-main-color: $qs-primary;
+$qs-sidebar-item-main-color: $qs-color-primary;
 $qs-sidebar-item-main-color-active: $qs-color-theme-70;
 $qs-sidebar-item-main-background-color: $qs-color-theme-80;
 $qs-sidebar-item-main-background-color-hover: $qs-color-theme-80;
@@ -138,7 +131,7 @@ $qs-sidebar-item-collapse-sub-color-hover: $qs-color-theme-70;
 $qs-sidebar-item-collapse-sub-color-active: $qs-color-theme-70;
 $qs-sidebar-item-collapse-sub-background-color-active: $qs-color-gray-70;
 $qs-sidebar-item-sub-height: 36px;
-$qs-sidebar-item-sub-color: $qs-primary;
+$qs-sidebar-item-sub-color: $qs-color-primary;
 $qs-sidebar-item-sub-color-active: $qs-color-theme-70;
 $qs-sidebar-item-sub-arrow-font-size: 16px;
 $qs-sidebar-item-sub-background-color: $qs-color-theme-10;
@@ -155,7 +148,7 @@ $qs-navbar-item-width: 25px;
 $qs-navbar-item-height: 25px;
 $qs-navbar-item-spacing: 30px;
 $qs-navbar-item-font-size: 24px;
-$qs-navbar-item-color: $qs-primary;
+$qs-navbar-item-color: $qs-color-primary;
 $qs-navbar-padding-right: 20px;
 
 
@@ -173,15 +166,15 @@ $qs-hamburger-height: 59px; //without border
 $qs-hamburger-font-size: $qs-font-size-l;
 $qs-hamburger-icon-padding-x: 20px;
 $qs-hamburger-icon-padding-y: 20px;
-$qs-hamburger-icon-color: $qs-primary;
+$qs-hamburger-icon-color: $qs-color-primary;
 
 /* navbar - breadcrumb */
 $qs-breadcrumb-font-size: $qs-font-size-l; //without border
 $qs-breadcrumb-font-weight: $qs-font-weight-regular;
 $qs-breadcrumb-current-font-weight: $qs-font-weight-regular;
 $qs-breadcrumb-color: $qs-color-gray-60;
-$qs-breadcrumb-link-color: $qs-primary;
-$qs-breadcrumb-color-hover: $qs-primary;
+$qs-breadcrumb-link-color: $qs-color-primary;
+$qs-breadcrumb-color-hover: $qs-color-primary;
 
 /* navbar - avatar */
 $qs-avatar-item-spacing: 10px;
@@ -241,7 +234,7 @@ $qs-h1-font-size: 5.625rem;
 $qs-h1-font-weight: $qs-font-weight-bold;
 
 $qs-h2-font-size: 3.75rem;
-$qs-h2-font-weight: $qs-font-weight-medium;
+$qs-h2-font-weight: $qs-font-weight-bold;
 
 $qs-h3-font-size: 3rem;
 $qs-h3-font-weight: $qs-font-weight-regular;
@@ -282,8 +275,8 @@ $qs-alert-error-border-color: scale-color($qs-alert-error-color, $lightness: 80%
 $qs-alert-error-background-color: scale-color($qs-alert-error-color, $lightness: 80%);
 
 /* nprogress style */
-$qs-nprogress-peg-box-shadow: 0 0 10px $qs-primary, 0 0 5px $qs-primary;
-$qs-nprogress-spinner-border-color: $qs-primary;
+$qs-nprogress-peg-box-shadow: 0 0 10px $qs-color-primary, 0 0 5px $qs-color-primary;
+$qs-nprogress-spinner-border-color: $qs-color-primary;
 
 /* defualt form style */
 $qs-form-item-margin-bottom: 20px;
@@ -295,13 +288,13 @@ $qs-form-item-border-radius: $qs-border-radius;
 $qs-form-inner-button-padding-x: 10px;
 $qs-form-inner-button-padding-y: 0;
 $qs-form-inner-button-height: 27px;
-$qs-form-inner-button-color: $qs-primary;
+$qs-form-inner-button-color: $qs-color-primary;
 $qs-form-inner-border-color: $qs-color-theme-30;
 $qs-form-item-label-margin-bottom: 2px;
 
 /* default toolbar button style */
 $qs-button-font-size: $qs-font-size-s;
-$qs-button-font-weight: $qs-font-weight-medium;
+$qs-button-font-weight: $qs-font-weight-bold;
 $qs-button-color: $qs-color-gray-100;
 $qs-button-color-hover: $qs-color-gray-100;
 $qs-button-color-disabled: rgba($qs-button-color, 0.6);
@@ -320,7 +313,7 @@ $qs-button-image-margin-right: 5px;
 
 /* default form button style */
 $qs-form-button-font-size: $qs-font-size-s;
-$qs-form-button-font-weight: $qs-font-weight-medium;
+$qs-form-button-font-weight: $qs-font-weight-bold;
 $qs-form-button-color: $qs-form-inner-button-color;
 $qs-form-button-color-hover: $qs-form-inner-button-color;
 $qs-form-button-color-disabled: $qs-color-gray-80;
@@ -353,13 +346,13 @@ $qs-label-padding-left: 11px;
 
 /* default input style */
 $qs-input-color: $qs-color-gray-100;
-$qs-input-color-disabled: $disabled-font-color;
+$qs-input-color-disabled: $qs-color-gray-60;
 $qs-input-border-width: 1px;
 $qs-input-border-color: $qs-color-gray-30;
-$qs-input-border-color-focus: $qs-primary;
-$qs-input-border-color-disabled: $disabled-border-color;
+$qs-input-border-color-focus: $qs-color-primary;
+$qs-input-border-color-disabled: $qs-color-gray-30;
 $qs-input-background-color: $qs-color-gray-10;
-$qs-input-background-color-disabled: $disabled-background-color;
+$qs-input-background-color-disabled: $qs-color-gray-20;
 
 /* default select style */
 $qs-select-item-color-selected: $qs-color-theme-80;
@@ -369,35 +362,35 @@ $qs-select-item-background-color-selected: rgba($qs-select-item-color-selected, 
 $qs-radio-label-color: $qs-color-gray-100;
 $qs-radio-label-color-checked: $qs-color-gray-100;
 $qs-radio-border-color: $qs-color-gray-60;
-$qs-radio-border-color-checked: $qs-primary;
+$qs-radio-border-color-checked: $qs-color-primary;
 $qs-radio-inner-bullet-checked-width: 6px;
 $qs-radio-inner-bullet-checked-height: 6px;
 $qs-radio-background-color: $qs-color-gray-10;
 $qs-radio-background-color-checked: $qs-color-gray-10;
 $qs-radio-pseudo-background-color: $qs-color-gray-10;
-$qs-radio-pseudo-background-color-checked: $qs-primary;
+$qs-radio-pseudo-background-color-checked: $qs-color-primary;
 
 /* default checkbox style */
 $qs-checkbox-label-color: $qs-color-gray-100;
 $qs-checkbox-label-color-checked: $qs-color-gray-100;
 $qs-checkbox-border-width: 2px;
 $qs-checkbox-border-color: $qs-color-gray-60;
-$qs-checkbox-border-color-checked: $qs-primary;
+$qs-checkbox-border-color-checked: $qs-color-primary;
 $qs-checkbox-background-color: $qs-color-gray-10;
 $qs-checkbox-background-color-checked: $qs-color-gray-10;
 $qs-checkbox-pseudo-border-width: 1px;
 $qs-checkbox-pseudo-border-color: $qs-color-gray-100;
 $qs-checkbox-pseudo-background-color: $qs-color-gray-10;
 $qs-checkbox-pseudo-border-width-checked: 1px;
-$qs-checkbox-pseudo-border-color-checked: $qs-primary;
+$qs-checkbox-pseudo-border-color-checked: $qs-color-primary;
 $qs-checkbox-pseudo-background-color-checked: $qs-color-gray-10;
 
 /* default list style */
 $qs-list-font-size: $qs-font-size-s;
-$qs-list-header-color-searched: $qs-primary;
-$qs-list-header-arrow-highlight: $qs-primary;
+$qs-list-header-color-searched: $qs-color-primary;
+$qs-list-header-arrow-highlight: $qs-color-primary;
 $qs-list-cell-background-color: $qs-color-gray-100;
-$qs-list-cell-background-color-highlight: rgba($qs-primary, 0.15);
+$qs-list-cell-background-color-highlight: rgba($qs-color-primary, 0.15);
 $qs-list-cell-padding-x: 10px;
 $qs-list-cell-padding-y: 4px;
 $qs-list-cell-icon-padding-right: 25px;
@@ -406,14 +399,14 @@ $qs-list-cell-progress-height: 15px;
 $qs-list-cell-progress-min-width: 100px;
 $qs-list-cell-progress-border-color: $qs-color-gray-60;
 $qs-list-cell-progress-border-width: 1px;
-$qs-list-cell-progress-background-color: rgba($qs-primary, 0.5);
+$qs-list-cell-progress-background-color: rgba($qs-color-primary, 0.5);
 $qs-list-cell-rating-font-size: 1.4rem;
 $qs-list-cell-rating-color: $qs-color-gray-60;
-$qs-list-cell-rating-color-highlight: $qs-primary/*#ffce00*/;
+$qs-list-cell-rating-color-highlight: $qs-color-primary/*#ffce00*/;
 $qs-list-cell-rating-width: auto;
 $qs-list-cell-rating-height: 20px;
 $qs-list-footer-background-color: $qs-color-gray-40;
-$qs-list-loading-stroke-color: $qs-primary;
+$qs-list-loading-stroke-color: $qs-color-primary;
 
 /* default tab style */
 $qs-tab-font-size: $qs-font-size-m;
@@ -434,10 +427,10 @@ $qs-symbol-palette-header-color: $qs-color-gray-100;
 /* canvas palette style */
 $qs-canvas-width: calc(100% - #{$qs-symbol-palette-width});
 $qs-canvas-background-color: $qs-color-gray-10;
-$qs-canvas-node-stroke-color: $qs-primary;
+$qs-canvas-node-stroke-color: $qs-color-primary;
 $qs-canvas-node-background-color: $qs-color-gray-10;
 $qs-canvas-node-handle-stroke-color: $qs-color-gray-100;
-$qs-canvas-node-handle-background-color: $qs-primary;
+$qs-canvas-node-handle-background-color: $qs-color-primary;
 
 /* shape style */
 $qs-shape-font-size: 20px;
@@ -453,13 +446,13 @@ $qs-mapper-border-color: $qs-color-gray-60;
 $qs-mapper-title-margin-bottom: 15px;
 $qs-mapper-list-width: 140px;
 $qs-mapper-list-item-height: 40px;
-$qs-mapper-list-item-ghost-background-color: rgba($qs-primary, 40%);
+$qs-mapper-list-item-ghost-background-color: rgba($qs-color-primary, 40%);
 
 /* file upload style */
 $qs-fileupload-thumb-width: 80px;
 $qs-fileupload-list-row-height: 50px;
 $qs-fileupload-list-th-font-size: $qs-font-size-s;
-$qs-fileupload-list-th-font-weight: $qs-font-weight-medium;
+$qs-fileupload-list-th-font-weight: $qs-font-weight-bold;
 $qs-fileupload-list-th-color: $qs-color-gray-100;
 $qs-fileupload-list-th-border-width: 1px;
 $qs-fileupload-list-th-border-color: $qs-color-gray-40;
@@ -487,7 +480,7 @@ $qs-comment-border-color: $qs-color-gray-60;
 $qs-comment-top-bottom-margin: 10px;
 $qs-comment-button-top: 15px;
 $qs-comment-more-button-font-size: $qs-font-size-m;
-$qs-comment-more-button-font-weight: $qs-font-weight-medium;
+$qs-comment-more-button-font-weight: $qs-font-weight-bold;
 $qs-comment-more-button-color: $qs-color-gray-100;
 $qs-comment-more-button-background-color: $qs-color-gray-10;
 $qs-comment-more-button-background-color-hover: $qs-color-gray-30;

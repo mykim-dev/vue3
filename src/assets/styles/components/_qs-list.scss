@@ -3,6 +3,7 @@
 /// @author sj.baek
 .qs-list {
   padding-top: $qs-component-margin-top;
+  box-shadow: 0 0 10px var(--color-gray-50, transparent);
   &.is-disable-drag {
     @include qs-disable-drag();
   }
@@ -46,7 +47,7 @@
 
         .cell {
           font-size: $qs-list-font-size;
-          font-weight: $qs-font-weight-medium;
+          font-weight: $qs-font-weight-bold;
           color: $qs-color-gray-100;
           padding: 0;
           position: relative;
@@ -73,7 +74,7 @@
                 float: left;
                 width: 100%;
                 font-size: $qs-list-font-size;
-                font-weight: $qs-font-weight-medium;
+                font-weight: $qs-font-weight-bold;
                 color: inherit;
                 @include qs-text-overflow-ellipsis();
 
@@ -101,7 +102,7 @@
 
               .el-popover__reference {
                 font-size: $qs-list-font-size;
-                font-weight: $qs-font-weight-medium;
+                font-weight: $qs-font-weight-bold;
               }
             }
           }
@@ -188,7 +189,7 @@
       background-color: transparent;
 
       > td {
-        font-weight: $qs-font-weight-light;
+        font-weight: $qs-font-weight-regular;
         // sjbaek style작업
         background-color: #fff;
 
@@ -362,7 +363,7 @@
       text-align: center;
       p {
         font-size: $qs-font-size-root;
-        font-weight: $qs-font-weight-medium;
+        font-weight: $qs-font-weight-bold;
       }
       span {
         font-size: inherit;
@@ -386,7 +387,7 @@
   }
 
   .el-pager li {
-    color: $qs-primary;
+    color: $qs-color-primary;
     font-weight: normal;
   }
 

@@ -42,7 +42,7 @@
   &__popup {
     .el-date-table td {
       &.today span {
-        color: $qs-primary;
+        color: $qs-color-primary;
       }
 
       &.today.start-date span, 
@@ -52,11 +52,11 @@
 
       &.current:not(.disabled) span {
         color: $qs-color-gray-100;
-        background-color: $qs-primary;
+        background-color: $qs-color-primary;
       }
 
       &.available:hover {
-        color: $qs-primary;
+        color: $qs-color-primary;
       }
     }
   }

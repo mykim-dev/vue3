@@ -85,6 +85,6 @@ input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
 
-// ::-webkit-scrollbar {width:6px; height:6px;} /* width */
-// ::-webkit-scrollbar-thumb {background:rgba(144, 147, 153, 0.3); border-radius:4px;} /* Handle */
-// ::-webkit-scrollbar-thumb:hover {background:rgba(144, 147, 153, 0.5);} /* Handle on hover */
+::-webkit-scrollbar {width:6px; height:6px;} /* width */
+::-webkit-scrollbar-thumb {background:rgba(144, 147, 153, 0.3); border-radius:4px;} /* Handle */
+::-webkit-scrollbar-thumb:hover {background:rgba(144, 147, 153, 0.5);} /* Handle on hover */
