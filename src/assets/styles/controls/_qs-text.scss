@@ -14,4 +14,9 @@
   &.el-invisible {
     display: none;
   }
+  &__inner {
+    // border: $qs-input-border-width solid $qs-input-border-color;
+    border-width: 1px;
+    border-style: solid;
+  }
 }

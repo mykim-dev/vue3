@@ -215,12 +215,13 @@
       }
       @else {
         .el-input__inner {
-          font-size: $qs-form-item-font-size;
-          border-color: $qs-input-border-color;
-          background-color: $qs-input-background-color;
-          color: $qs-input-color;
-          border-radius: $qs-form-item-border-radius;
           padding: 0 7px;
+          color: $qs-input-color;
+          font-size: $qs-form-item-font-size;          
+          border-color: $qs-input-border-color;
+          border-radius: $qs-form-item-border-radius;
+          background-color: $qs-input-background-color;
+          
           @include qs-set-oneline-height(#{$qs-form-item-height});
 
           &:focus {

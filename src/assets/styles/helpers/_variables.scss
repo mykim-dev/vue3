@@ -3,25 +3,21 @@ $qs-html-elements: "div, h1, h2, h3, h4, h5, h6, form, fieldset, p, blockquote, 
 $qs-list-elements: "ul, ol, li, dl, dt, dd";
 
 /* default font-family */
-$qs-font-family-notosans: notosans, sans-serif;
-$qs-font-family-nanumbarungothic: NanumBarunGothic, sans-serif;
-$qs-font-family-nanumsquare: NanumSquare, sans-serif;
+$qs-font-family: var(--fontfamily-default) !default;
 
-$qs-font-family: $qs-font-family-notosans !default;
-
-$qs-font-weight-thin: $font-weight-thin !default;
-$qs-font-weight-light: $font-weight-light !default;
-$qs-font-weight-regular: $font-weight-regular !default;
-$qs-font-weight-medium: $font-weight-medium !default;
-$qs-font-weight-bold: $font-weight-bold !default;
-$qs-font-weight-black: $font-weight-black !default;
+$qs-font-weight-thin: 100 !default;
+$qs-font-weight-light: 300 !default;
+$qs-font-weight-regular: 400 !default;
+$qs-font-weight-medium: 500 !default;
+$qs-font-weight-bold: 700 !default;
+$qs-font-weight-black: 900 !default;
 
 $qs-font-size-root: 14px !default;
-$qs-font-size-l: 1.15rem;
-$qs-font-size-m: 1rem;
-$qs-font-size-s: 0.875rem;
-$qs-font-size-xxs: 0.75rem;
-$qs-font-size-xxxs: 0.5625rem;
+$qs-font-size-xs: var(--fontsize-xs) !default;
+$qs-font-size-s: var(--fontsize-s) !default;
+$qs-font-size-m: var(--fontsize-m) !default;
+$qs-font-size-l: var(--fontsize-l) !default;
+$qs-font-size-xl: var(--fontsize-xl) !default;
 
 $qs-line-height-base: 1.5;
 
@@ -32,34 +28,34 @@ $qs-color-danger: #f75456 !default;     /* 위험, 에러 */
 $qs-color-alarm: #ff6f61 !default;      /* 알림 */
 $qs-color-success: #6dd400 !default;    /* 긍정, 성공*/
 
-$qs-color-gray-10: $color-default-gray-10;
-$qs-color-gray-20: $color-default-gray-20;
-$qs-color-gray-30: $color-default-gray-30;
-$qs-color-gray-40: $color-default-gray-40;
-$qs-color-gray-50: $color-default-gray-50;
-$qs-color-gray-60: $color-default-gray-60;
-$qs-color-gray-70: $color-default-gray-70;
-$qs-color-gray-80: $color-default-gray-80;
-$qs-color-gray-90: $color-default-gray-90;
-$qs-color-gray-100: $color-default-gray-100;
+$qs-color-gray-10: var(--color-gray-10);
+$qs-color-gray-20: var(--color-gray-20);
+$qs-color-gray-30: var(--color-gray-30);
+$qs-color-gray-40: var(--color-gray-40);
+$qs-color-gray-50: var(--color-gray-50);
+$qs-color-gray-60: var(--color-gray-60);
+$qs-color-gray-70: var(--color-gray-70);
+$qs-color-gray-80: var(--color-gray-80);
+$qs-color-gray-90: var(--color-gray-90);
+$qs-color-gray-100: var(--color-gray-100);
 
-$qs-color-theme-10: $color-default-theme-10;
-$qs-color-theme-20: $color-default-theme-20;
-$qs-color-theme-30: $color-default-theme-30;
-$qs-color-theme-40: $color-default-theme-40;
-$qs-color-theme-50: $color-default-theme-50;
-$qs-color-theme-60: $color-default-theme-60;
-$qs-color-theme-70: $color-default-theme-70;
-$qs-color-theme-80: $color-default-theme-80;
-$qs-color-theme-90: $color-default-theme-90;
-$qs-color-theme-100: $color-default-theme-100;
+$qs-color-theme-10: var(--color-primary-10);
+$qs-color-theme-20: var(--color-primary-20);
+$qs-color-theme-30: var(--color-primary-30);
+$qs-color-theme-40: var(--color-primary-40);
+$qs-color-theme-50: var(--color-primary-50);
+$qs-color-theme-60: var(--color-primary-60);
+$qs-color-theme-70: var(--color-primary-70);
+$qs-color-theme-80: var(--color-primary-80);
+$qs-color-theme-90: var(--color-primary-90);
+$qs-color-theme-100: var(--color-primary-100);
 
 /* system color */
-$qs-primary: $qs-color-theme-70;
+$qs-primary: var(--color-theme-primary);
 
 
 /* default background color */
-$qs-background-color: $qs-color-theme-20;
+$qs-background-color: var(--color-layout-background);
 
 
 $disabled-font-color: $qs-color-gray-60 !default;
@@ -166,7 +162,7 @@ $qs-navbar-padding-right: 20px;
 /* alarm bell default style */
 $qs-alarm-bell-badge-color: $qs-color-gray-100;
 $qs-alarm-bell-badge-background-color: $qs-color-alarm;
-$qs-alarm-bell-badge-font-size: $qs-font-size-xxxs;
+$qs-alarm-bell-badge-font-size: $qs-font-size-xs;
 $qs-alarm-bell-badge-border-width: 2px;
 $qs-alarm-bell-badge-border-color: $qs-color-gray-10;
 $qs-alarm-bell-badge-width: 16px;
@@ -294,7 +290,7 @@ $qs-form-item-margin-bottom: 20px;
 $qs-form-item-height: 27px;
 $qs-form-item-height-xs: 28px;
 $qs-form-item-font-size: $qs-font-size-s;
-$qs-form-item-font-size-xs: $qs-font-size-xxs;
+$qs-form-item-font-size-xs: $qs-font-size-xs;
 $qs-form-item-border-radius: $qs-border-radius;
 $qs-form-inner-button-padding-x: 10px;
 $qs-form-inner-button-padding-y: 0;
@@ -310,7 +306,7 @@ $qs-button-color: $qs-color-gray-100;
 $qs-button-color-hover: $qs-color-gray-100;
 $qs-button-color-disabled: rgba($qs-button-color, 0.6);
 $qs-button-background-color: $qs-color-gray-10;
-$qs-button-background-color-hover: darken($qs-button-background-color, 10%);
+$qs-button-background-color-hover: rgba($qs-button-background-color, 10%);
 $qs-button-background-color-disabled: $qs-color-gray-100;
 $qs-button-border-color: transparent;
 $qs-button-border-color-hover: transparent;
@@ -329,10 +325,10 @@ $qs-form-button-color: $qs-form-inner-button-color;
 $qs-form-button-color-hover: $qs-form-inner-button-color;
 $qs-form-button-color-disabled: $qs-color-gray-80;
 $qs-form-button-background-color: $qs-color-gray-10;
-$qs-form-button-background-color-hover: darken($qs-form-button-background-color, 10%);
+$qs-form-button-background-color-hover: rgba($qs-form-button-background-color, 10%);
 $qs-form-button-background-color-disabled: $qs-color-gray-30;
 $qs-form-button-border-color: $qs-form-inner-border-color;
-$qs-form-button-border-color-hover: darken($qs-form-button-background-color, 10%);
+$qs-form-button-border-color-hover: rgba($qs-form-button-background-color, 10%);
 $qs-form-button-border-color-disabled: $qs-color-gray-60;
 $qs-form-button-padding-x: 7px;
 $qs-form-button-padding-y: 1px;
@@ -358,8 +354,9 @@ $qs-label-padding-left: 11px;
 /* default input style */
 $qs-input-color: $qs-color-gray-100;
 $qs-input-color-disabled: $disabled-font-color;
+$qs-input-border-width: 1px;
 $qs-input-border-color: $qs-color-gray-30;
-$qs-input-border-color-focus: $qs-color-theme-40;
+$qs-input-border-color-focus: $qs-primary;
 $qs-input-border-color-disabled: $disabled-border-color;
 $qs-input-background-color: $qs-color-gray-10;
 $qs-input-background-color-disabled: $disabled-background-color;
@@ -456,7 +453,7 @@ $qs-mapper-border-color: $qs-color-gray-60;
 $qs-mapper-title-margin-bottom: 15px;
 $qs-mapper-list-width: 140px;
 $qs-mapper-list-item-height: 40px;
-$qs-mapper-list-item-ghost-background-color: lighten($qs-primary, 40%);
+$qs-mapper-list-item-ghost-background-color: rgba($qs-primary, 40%);
 
 /* file upload style */
 $qs-fileupload-thumb-width: 80px;
@@ -499,32 +496,3 @@ $qs-comment-more-button-background-color-hover: $qs-color-gray-30;
 $qs-text-content-font-size: $qs-font-size-s;
 $qs-text-content-font-weight: $qs-font-weight-regular;
 $qs-text-content-color: $qs-color-gray-100;
-
-
-// /* kakao theme color */
-.demo {
-    $qs-color-gray-10: $color-kakao-gray-10 !default;
-    $qs-color-gray-20: $color-kakao-gray-20 !default;
-    $qs-color-gray-30: $color-kakao-gray-30 !default;
-    $qs-color-gray-40: $color-kakao-gray-40 !default;
-    $qs-color-gray-50: $color-kakao-gray-50 !default;
-    $qs-color-gray-60: $color-kakao-gray-60 !default;
-    $qs-color-gray-70: $color-kakao-gray-70 !default;
-    $qs-color-gray-80: $color-kakao-gray-80 !default;
-    $qs-color-gray-90: $color-kakao-gray-90 !default;
-    $qs-color-gray-100: $color-kakao-gray-100 !default;
-
-    $qs-color-theme-10: $color-kakao-theme-10 !default;
-    $qs-color-theme-20: $color-kakao-theme-20 !default;
-    $qs-color-theme-30: $color-kakao-theme-30 !default;
-    $qs-color-theme-40: $color-kakao-theme-40 !default;
-    $qs-color-theme-50: $color-kakao-theme-50 !default;
-    $qs-color-theme-60: $color-kakao-theme-60 !default;
-    $qs-color-theme-70: $color-kakao-theme-70 !default;
-    $qs-color-theme-80: $color-kakao-theme-80 !default;
-    $qs-color-theme-90: $color-kakao-theme-90 !default;
-    $qs-color-theme-100: $color-kakao-theme-100 !default;
-
-    $qs-background-color: $qs-color-theme-20;
-    background-color: $qs-color-theme-20;
-}

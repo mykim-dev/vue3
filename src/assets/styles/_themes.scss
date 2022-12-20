@@ -1,8 +1,1 @@
 /// theme 적용파일
-
-.qs-button {
-    @include qs-themify(){
-        background: qs-themed("my-class-bg");
-        color: qs-themed("text-color");
-    }
-}

@@ -13,7 +13,7 @@
     width: 20px;
     height: 20px;
     vertical-align: middle;
-    background: url("~assets/img/newEdit-icon.png") no-repeat center;
+    // background: url("~assets/img/newEdit-icon.png") no-repeat center;
     background-size: contain;
     background-color: transparent;
   }
@@ -25,7 +25,7 @@
     width: 20px;
     height: 20px;
     vertical-align: middle;
-    background: url("~assets/img/edit-icon.png") no-repeat center;
+    // background: url("~assets/img/edit-icon.png") no-repeat center;
     background-size: contain;
     background-color: transparent;
   }
@@ -37,7 +37,7 @@
     width: 20px;
     height: 20px;
     vertical-align: middle;
-    background: url("~assets/img/delmode-icon.png") no-repeat center;
+    // background: url("~assets/img/delmode-icon.png") no-repeat center;
     background-size: contain;
     background-color: transparent;
   }
@@ -49,7 +49,7 @@
     width: 20px;
     height: 20px;
     vertical-align: middle;
-    background: url("~assets/img/del-icon.png") no-repeat center;
+    // background: url("~assets/img/del-icon.png") no-repeat center;
     background-size: contain;
     background-color: transparent;
   }
@@ -61,7 +61,7 @@
     width: 20px;
     height: 20px;
     vertical-align: middle;
-    background: url("~assets/img/save-icon.png") no-repeat center;
+    // background: url("~assets/img/save-icon.png") no-repeat center;
     background-size: contain;
     background-color: transparent;
   }
@@ -73,7 +73,7 @@
     width: 20px;
     height: 20px;
     vertical-align: middle;
-    background: url("~assets/img/cancel-icon.png") no-repeat center;
+    // background: url("~assets/img/cancel-icon.png") no-repeat center;
     background-size: contain;
     background-color: transparent;
   }
@@ -92,11 +92,11 @@
       background-color: transparent;
 
       &.qs-list__header-cell-inline-new {
-        background: url("~assets/img/newEdit-icon.png") no-repeat center;
+        // background: url("~assets/img/newEdit-icon.png") no-repeat center;
       }
     
       &.qs-list__header-cell-inline-edit {
-        background: url("~assets/img/edit-icon.png") no-repeat center;
+        // background: url("~assets/img/edit-icon.png") no-repeat center;
       }
     
       &.qs-list__header-cell-inline-deletemode {
@@ -104,15 +104,15 @@
       }
     
       &.qs-list__header-cell-inline-delete {
-        background: url("~assets/img/del-icon.png") no-repeat center;
+        // background: url("~assets/img/del-icon.png") no-repeat center;
       }
     
       &.qs-list__header-cell-inline-save {
-        background: url("~assets/img/save-icon.png") no-repeat center;
+        // background: url("~assets/img/save-icon.png") no-repeat center;
       }
     
       &.qs-list__header-cell-inline-cancel {
-        background: url("~assets/img/cancel-icon.png") no-repeat center;
+        // background: url("~assets/img/cancel-icon.png") no-repeat center;
       }
     }
   }

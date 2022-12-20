@@ -34,7 +34,7 @@
 
   &__desc {
     color: #8e9091;
-    font-size: $qs-font-size-xxxs;
+    font-size: $qs-font-size-xs;
     font-weight: $qs-font-weight-regular;
     position: absolute;
     right: 0;
@@ -218,7 +218,7 @@
         display: block;
         width: 54px;
         height: 54px;
-        background: url("~assets/img/no_file.png") no-repeat center;
+        // background: url("~assets/img/no_file.png") no-repeat center;
         margin: 0 auto;
       }
 
@@ -226,7 +226,7 @@
         display: block;
         width: 54px;
         height: 54px;
-        background: url("~assets/img/no_image.png") no-repeat center;
+        // background: url("~assets/img/no_image.png") no-repeat center;
         margin: 0 auto;
       }
     }
@@ -282,7 +282,7 @@
         display: inline-block;
         width: 17px;
         height: 17px;
-        background: url("~assets/img/fileupload_download.png") no-repeat center;
+        // background: url("~assets/img/fileupload_download.png") no-repeat center;
         cursor: pointer;
       }
 
@@ -290,7 +290,7 @@
         width: 28px;
         height: 22px;
         display: inline-block;
-        background: url("~assets/img/fileupload_rotate.png") no-repeat center;
+        // background: url("~assets/img/fileupload_rotate.png") no-repeat center;
         cursor: pointer;
       }
 
@@ -298,7 +298,7 @@
         display: inline-block;
         width: 18px;
         height: 18px;
-        background: url("~assets/img/fileupload_delete.png") no-repeat center;
+        // background: url("~assets/img/fileupload_delete.png") no-repeat center;
         cursor: pointer;
       }
 
@@ -306,7 +306,7 @@
         display: inline-block;
         width: 18px;
         height: 18px;
-        background: url("~assets/img/fileupload_open.png") no-repeat center;
+        // background: url("~assets/img/fileupload_open.png") no-repeat center;
         cursor: pointer;
         background-size: cover;
       }
@@ -315,7 +315,7 @@
         display: inline-block;
         width: 12px;
         height: 12px;
-        background: url("~assets/img/fileupload_done.png") no-repeat center;
+        // background: url("~assets/img/fileupload_done.png") no-repeat center;
         background-size: 100%;
       }
 
@@ -323,7 +323,7 @@
         display: inline-block;
         width: 12px;
         height: 12px;
-        background: url("~assets/img/fileupload_start.png") no-repeat center;
+        // background: url("~assets/img/fileupload_start.png") no-repeat center;
         background-size: 100%;
         cursor: pointer;
       }
@@ -332,7 +332,7 @@
         display: inline-block;
         width: 12px;
         height: 12px;
-        background: url("~assets/img/fileupload_retry.png") no-repeat center;
+        // background: url("~assets/img/fileupload_retry.png") no-repeat center;
         background-size: 100%;
         cursor: pointer;
       }
@@ -341,7 +341,7 @@
         display: inline-block;
         width: 12px;
         height: 12px;
-        background: url("~assets/img/fileupload_paste.png") no-repeat center;
+        // background: url("~assets/img/fileupload_paste.png") no-repeat center;
         background-size: 100%;
         cursor: pointer;
       }

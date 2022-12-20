@@ -427,12 +427,12 @@
         height: 20px;
         padding: 0;
         border: 0 none;
-        background: url("~assets/img/list_total.png") no-repeat center;
+        // background: url("~assets/img/list_total.png") no-repeat center;
         background-size: contain;
         vertical-align: middle;
 
         &.loading {
-          background-image: url("~assets/img/list_total_gif.gif");
+          // background-image: url("~assets/img/list_total_gif.gif");
         }
       }
     }
